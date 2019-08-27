@@ -3,6 +3,8 @@ function scuberGreetingForFeet(numFeet){
   let message;
   if (numFeet <= 400) {
     message = "This one is on me!";
+  } else if (numFeet > 2500) {
+    message = "No can do."
   } else if (numFeet > 2000) {
     message = "I will gladly take your thirty bucks.";
   }
